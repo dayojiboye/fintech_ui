@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "expo-starter",
-    "slug": "expo-starter",
+    "name": "fintech_ui",
+    "slug": "fintech_ui",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expostarter",
+    "scheme": "fintechui",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -38,7 +38,11 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,

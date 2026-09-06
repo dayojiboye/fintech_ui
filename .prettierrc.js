@@ -1,7 +1,8 @@
 module.exports = {
-  trailingComma: "all",
+  endOfLine: "lf",
   tabWidth: 2,
-  semi: true,
+  trailingComma: "es5",
+  semi: false,
   singleQuote: false,
   printWidth: 120,
   bracketSpacing: true,

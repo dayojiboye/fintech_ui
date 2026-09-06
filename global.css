@@ -49,13 +49,14 @@
       --overlay: var(--white);
       --overlay-foreground: var(--foreground);
 
-      --muted: oklch(0.5517 0.0138 285.94);
+      --muted: #5b616e;
 
       --default: oklch(94% 0.001 286.375);
       --default-foreground: var(--eclipse);
 
       --accent: oklch(0.6204 0.195 253.83);
       --accent-foreground: var(--snow);
+      --app-blue: #383bca;
 
       /* Form Fields */
       --field-background: var(--white);
@@ -116,6 +117,7 @@
 
       --accent: oklch(0.6204 0.195 253.83);
       --accent-foreground: var(--snow);
+      --app-blue: #383bca;
 
       /* Form Field Defaults - Colors (only the ones that are different from light theme) */
       --field-background: oklch(0.2103 0.0059 285.89);
@@ -149,4 +151,8 @@
       --field-shadow: 0 0 0 0 transparent inset; /* Transparent shadow to allow ring utilities to work */
     }
   }
+}
+
+@theme inline {
+  --color-app-blue: var(--app-blue);
 }
